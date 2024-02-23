@@ -13,7 +13,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'ec25p5e', // Usually your GitHub org/user name.
   projectName: 'InventoryDocs', // Usually your repo name.
-
+  scripts: [
+    'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js',
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -33,6 +35,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      mySidebar: ['doc_admin_sidebar'],
       navbar: {
         title: 'Gestione Magazzino',
         logo: {
@@ -42,9 +45,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'doc_admin_frontend/intro_doc_admin',
             position: 'left',
-            label: 'Manuale utente',
+            label: 'Documentazione Admin',
+          },
+          {
+            type: 'doc',
+            docId: 'doc_admin_db/intro_doc_admin_db',
+            position: 'left',
+            label: 'Documentazione Admin - DB',
           }
         ],
       },

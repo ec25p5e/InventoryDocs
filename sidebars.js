@@ -21,12 +21,23 @@ module.exports = {
     },
   ],
   doc_admin_db_sidebar: [
+    'doc_admin_db/intro_doc_admin_db',
     {
       type: 'category',
-      label: '',
+      label: 'Gestione articoli',
       items: [
-          'doc_admin_db/intro_doc_admin_db'
+          'doc_admin_db/products_db_schema'
       ]
     },
   ],
+  doc_user_sidebar: [
+    'doc_user/intro_doc_user',
+    {
+      type: 'category',
+      label: 'Articoli economato',
+      items: [
+          'doc_user/products_list'
+      ]
+    }
+  ]
 };

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Gestione Magazzino',
   tagline: ' ',
-  url: 'http://localhost:3000',
+  url: 'http://172.16.8.8:8000',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -40,7 +40,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'Gestione Magazzino',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://www.sdk-csd.ch/admin/data/files/member/image/64/logo@3x_logo_big.png?lm=1572338395',
         },
         items: [
           {
@@ -54,11 +54,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             docId: 'doc_admin_db/intro_doc_admin_db',
             position: 'left',
             label: 'Documentazione Admin - DB',
+          },
+          {
+            type: 'doc',
+            docId: 'doc_user/intro_doc_user',
+            position: 'left',
+            label: 'Documentazione utente',
           }
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Documentazione',
@@ -74,7 +80,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
       },
     }),
 });

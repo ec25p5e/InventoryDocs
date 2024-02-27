@@ -53,7 +53,7 @@ p {
 }
 
 strong {
-  color: limegreen;
+  color: var(--ifm-color-primary);
 }
 
 ol {
@@ -64,4 +64,9 @@ ol {
 ul {
   list-style-type: square;
   margin-left: 20px;
+}
+
+img {
+  border: 2px solid var(--ifm-color-primary); /* Cambia il colore del bordo con il colore del tema */
+  padding: 5px; /* Aggiunge un po' di spazio tra l'immagine e il bordo */
 }

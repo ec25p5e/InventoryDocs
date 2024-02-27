@@ -36,7 +36,7 @@ module.exports = {
       type: 'category',
       label: 'Articoli economato',
       items: [
-          'doc_user/products_list'
+          'doc_user/product_list'
       ]
     }
   ]

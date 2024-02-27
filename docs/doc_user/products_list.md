@@ -1,7 +1,6 @@
 ---
 id: product_list
 title: Elenco economato
-sidebar_label: Elenco economato
 ---
 
 ## Panoramica
@@ -36,5 +35,3 @@ Per fuori stock si intende quando il campo "Data FINE validità" è stato impost
 Dalla pagina è possibile eliminare ogni singolo articolo presente nell'inventario. Per farlo basta cliccare <strong>Elimina</strong> 
 sulla riga dell'articolo desiderato. 
 <p>Una volta eliminato con successo l'articolo verrà visualizzato un messaggio di conferma.</p>
-
-## Modifica articolo

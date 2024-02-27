@@ -36,7 +36,17 @@ module.exports = {
       type: 'category',
       label: 'Articoli economato',
       items: [
-          'doc_user/product_list'
+          'doc_user/product_list',
+          'doc_user/product_movements',
+          'doc_user/bulk_movements',
+          'doc_user/new_product'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Reporting',
+      items: [
+        'doc_user/annual_reports',
       ]
     }
   ]
